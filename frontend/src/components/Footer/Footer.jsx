@@ -95,7 +95,7 @@ const Footer = () => {
               <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span><i class='ri-mail-line'></i></span>
-                  Address:
+                  Email:
                 </h6>
                 <p className="mb-0">email@email.com</p>
               </ListGroupItem>

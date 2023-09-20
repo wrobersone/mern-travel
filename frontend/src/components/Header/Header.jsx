@@ -16,7 +16,7 @@ const nav_links = [
     path: '/aboutus',
   },
   {
-    text: 'Locations',
+    text: 'Vacations',
     path: '/locations',
   },
 ]

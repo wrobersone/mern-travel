@@ -96,6 +96,7 @@
 .location__title a:hover {
     color: var(--secondary-color);
     text-decoration: underline;
+    text-underline-offset: 0.5rem;
 }
 
 .card__bottom h5 {

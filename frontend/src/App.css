@@ -71,6 +71,7 @@ ul {
 
 .secondary__btn a:hover {
   color: inherit;
+  cursor: pointer;
 }
 
 .section__subtitle {
