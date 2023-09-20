@@ -6,7 +6,7 @@ import tourImg05 from "../assets/images/tour-img05.jpg";
 import tourImg06 from "../assets/images/tour-img06.jpg";
 import tourImg07 from "../assets/images/tour-img07.jpg";
 
-const tours = [
+const locations = [
   {
     id: "01",
     title: "Westminister Bridge",
@@ -151,4 +151,4 @@ const tours = [
   },
 ];
 
-export default tours;
+export default locations;

@@ -10,11 +10,14 @@
 
 .footer .logo p {
     color: var(--text-color);
+    font-weight: 500;
 }
 
 .footer__links-title {
     color: var(--heading-color);
     margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 .social__links span a {
@@ -27,10 +30,13 @@
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.1rem;
+    font-weight: 500;
 }
 
 .footer__quick-links li a:hover {
     color: var(--primary-color);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
 }
 
 .footer__quick-links h6 span i {

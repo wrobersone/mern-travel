@@ -83,7 +83,7 @@
 
 /* Services */
 .services {
-    background: #CAE5F4;
+    background: wheat;
 }
 .services__subtitle {
     font-size: 2.2rem;
@@ -97,12 +97,13 @@
     font-weight: 500;
 }
 
+/* Featured Section */
 .featured__title {
     font-size: 2.3rem;
     font-weight: 500;
 }
 
-
+/* Customer Experiences */
 .experience {
     background: wheat;    
 }
@@ -161,6 +162,7 @@
 .masonry__img:hover {
     transform: scale(1.1);
     cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 /* Testimonies */
 .testimonial__title {
@@ -170,7 +172,7 @@
 
 /* Newsletter */
 .newsletter {
-    background: #CAE5F4;
+    background: wheat;
     margin-top: 3rem;
     padding: 0;
 }
@@ -213,3 +215,4 @@
     background: var(--secondary-color);
 }
 
+/* Vacation Details */

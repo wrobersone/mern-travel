@@ -25,7 +25,7 @@ const footer_links2 = [
     path: '/gallery',
   },
   {
-    text: 'Login',
+    text: 'Sign In',
     path: '/login',
   },
   {

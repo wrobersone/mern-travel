@@ -32,7 +32,8 @@
 
 /* Featured */
 
-/* Locations */
+
+/* Locations or Vacations*/
 .location__img img {
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -94,6 +95,7 @@
 
 .location__title a:hover {
     color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 .card__bottom h5 {

@@ -6,16 +6,16 @@ import { RiMapPinTimeLine } from 'react-icons/ri'
 import { BsPeople, BsSearch } from 'react-icons/bs'
 
 const SearchBar = () => {
-    const locationRef = useRef('');
+    const vacationRef = useRef('');
     const distanceRef = useRef('');
-    const guestsRef = useRef('');
+    const maxGroupSizeRef = useRef('');
 
     const searchHandler = () => {
-        const location = locationRef.current.value
+        const vacation = vacationRef.current.value
         const distance = distanceRef.current.value
-        const guests = guestsRef.current.value
+        const maxGroupSize = maxGroupSizeRef.current.value
 
-        if (location === '' || distance === '' || guests === '') {
+        if (vacation === '' || distance === '' || maxGroupSize === '') {
             return alert('All fields are required!');
         }
     }
@@ -29,8 +29,8 @@ const SearchBar = () => {
                     <HiOutlineMapPin />
                 </span>
                 <div>
-                    <h6>Location</h6>
-                    <input type="text" placeholder="Where are you going?" ref={locationRef} />
+                    <h6>Vacation</h6>
+                    <input type="text" placeholder="Where are you going?" ref={vacationRef} />
                 </div>
             </FormGroup>
             <FormGroup className="d-flex gap-3 form__group form__group-fast">
@@ -48,7 +48,7 @@ const SearchBar = () => {
                 </span>
                 <div>
                     <h6>Guests</h6>
-                    <input type="number" placeholder="0" ref={guestsRef} />
+                    <input type="number" placeholder="0" ref={maxGroupSizeRef} />
                 </div>
             </FormGroup>
 
