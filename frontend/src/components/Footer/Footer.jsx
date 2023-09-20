@@ -11,11 +11,11 @@ const footer_links = [
   },
   {
     text: 'About Us',
-    path: '/aboutus',
+    path: '/about-us',
   },
   {
-    text: 'Locations',
-    path: '/locations',
+    text: 'Vacations',
+    path: '/vacations',
   },
 ]
 

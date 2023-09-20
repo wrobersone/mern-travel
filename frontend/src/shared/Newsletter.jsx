@@ -13,7 +13,7 @@ const Newsletter = () => {
                     <h2>Subscribe to the newsletter</h2>
                     <div className="newsletter__input">
                         <input type="email" placeholder="Enter your email" />
-                        <button className="primary__btn newsletter__btn">Subscribe</button>
+                        <button className="newsletter__btn">Subscribe</button>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempore aliquam in amet voluptates veritatis consequatur officia? Quae eligendi aut perspiciatis accusantium corrupti laboriosam, minima, dicta illum cumque, odit fugit!</p>
                 </div>

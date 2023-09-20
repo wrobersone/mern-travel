@@ -28,13 +28,13 @@ const LocationCard = ({ location }) => {
           </div>
 
           <h5 className="location__title">
-            <Link to={`/locations/${id}`}>{title}</Link>
+            <Link to={`/vacations/${id}`}>{title}</Link>
           </h5>
 
           <div className="card__bottom d-flex align-items-center justify-content-between mt-3">
             <h5>${price} <span>per person</span> </h5>
             <button className="btn booking__btn">
-              <Link to={`/locations/${id}`}>Book Now</Link>
+              <Link to={`/vacations/${id}`}>Book Now</Link>
             </button>
           </div>
         </CardBody>

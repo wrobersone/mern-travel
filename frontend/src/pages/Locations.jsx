@@ -19,7 +19,7 @@ const Locations = () => {
   return (
     <>
       <Common title={'Our Vacations'} />
-      <section>
+      <section className="vacations-search__bar">
         <Container>
           <Row>
             <SearchBar />
@@ -48,6 +48,7 @@ const Locations = () => {
           </Row>
         </Container>
       </section>
+      <Newsletter />
     </>
   )
 }

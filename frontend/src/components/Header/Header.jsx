@@ -13,11 +13,11 @@ const nav_links = [
   },
   {
     text: 'About Us',
-    path: '/aboutus',
+    path: '/about-us',
   },
   {
     text: 'Vacations',
-    path: '/locations',
+    path: '/vacations',
   },
 ]
 
